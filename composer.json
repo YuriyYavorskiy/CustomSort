@@ -9,6 +9,12 @@
   "license": [
     "Proprietary"
   ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.perspective.net.ua/"
+    }
+  ],
   "autoload": {
     "files": [
       "registration.php"
@@ -16,5 +22,6 @@
     "psr-4": {
       "Perspective\\CustomSort\\": ""
     }
-  }
+  },
+  "minimum-stability": "stable"
 }
