@@ -1,20 +1,19 @@
 {
   "name": "perspective/module-custom-sort",
-  "version": "1.0.0",
-  "description": "N/A",
+  "description": "A Magento 2 module to add custom sort options.",
   "type": "magento2-module",
-  "require": {
-    "magento/framework": "*"
-  },
-  "license": [
-    "Proprietary"
-  ],
-  "repositories": [
+  "license": "Proprietary",
+  "authors": [
     {
-      "type": "composer",
-      "url": "https://composer.perspective.net.ua/"
+      "name": "Yuriy Yavorskiy"
     }
   ],
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": "*",
+    "magento/module-catalog": "104.*",
+    "magento/module-config": "101.*"
+  },
   "autoload": {
     "files": [
       "registration.php"
@@ -22,6 +21,5 @@
     "psr-4": {
       "Perspective\\CustomSort\\": ""
     }
-  },
-  "minimum-stability": "stable"
+  }
 }
