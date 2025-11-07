@@ -1,8 +1,5 @@
 <?php
-/**
- * Copyright © Perspective Studio. All rights reserved.
- *
- */
+
 declare(strict_types=1);
 
 namespace Perspective\CustomSort\Plugin\Block\Product\ProductList;
